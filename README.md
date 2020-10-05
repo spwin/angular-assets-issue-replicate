@@ -9,11 +9,11 @@ This is replicating following issue https://github.com/angular/angular-cli/issue
 * run `ng serve`
 * navigate to http://localhost:4200/
 * see sad face
-* ![Happy face](/src/new-assets/face.png)
+* ![Happy face](/src/assets/face.png)
 * run `ng build`
 * check compiled image asset in `dist/assets-replicate/assets/face.png`
 * see happy face
-* ![Happy face](/src/assets/face.png)
+* ![Happy face](/src/new-assets/face.png)
 
 So it example above it's working fine for build but wrong for serve.
 If we switch the order in `angular.json` the faces will be reversed for these commands as well.
@@ -44,8 +44,8 @@ index 3f22e27..8df7e00 100644
 * run `ng serve`
 * navigate to http://localhost:4200/
 * see happy face
-* ![Happy face](/src/assets/face.png)
+* ![Happy face](/src/new-assets/face.png)
 * run `ng build`
 * check compiled image asset in `dist/assets-replicate/assets/face.png`
 * see sad face
-* ![Happy face](/src/new-assets/face.png)
+* ![Happy face](/src/assets/face.png)
